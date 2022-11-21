@@ -22,7 +22,7 @@ public class UsuarioController {
 		System.out.println("en el metodo home");
 		return "Home";
 	}
-		// http://localhost:9080/vale/carcamo
+		// http://localhost:7080/vale/carcamo
 		@RequestMapping("/vale/carcamo")
 	public String vcarcamo () {
 		System.out.println("en el metodo nombre");
